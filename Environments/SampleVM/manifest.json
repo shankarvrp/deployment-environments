@@ -1,0 +1,7 @@
+name: SampleVM
+version: 1.0.0
+summary: Sample VM Environment
+description: Deploys an Azure VM Sample
+runner: ARM
+templatePath: azureDeploy.json
+parameterPath: parametersFile.json
